@@ -3,8 +3,52 @@
     "name":     "Wren",
     "slug":     "wren",
     "types":    ["author", "musician"],
-    "bio":      "A test identity used to validate the Net registration loop end-to-end. Two declared types so both /roster filters have something to show; no portrait field so the initial-letter avatar fallback gets exercised too.",
+    "bio":      "A test identity used to validate the Net registration loop end-to-end. Content stubs below exercise all four rendering templates (book, album, video, gallery); the file URLs are placeholders that don't have to resolve for the layout tests.",
     "register": "Test · Author + Musician",
     "epigraph": "Everything is a test until it's a launch."
-  }
+  },
+  "content": [
+    {
+      "type":        "book",
+      "slug":        "first-test-book",
+      "title":       "First Test Book",
+      "description": "A stub book to verify the book detail rendering — cover, description, download link, comments hook. The epub path points nowhere real until we add an actual EPUB file.",
+      "epub":        "dist/first-test-book.epub",
+      "cover":       "images/covers/first-test-book.jpg",
+      "publishedAt": "2026-07-05"
+    },
+    {
+      "type":        "album",
+      "slug":        "first-test-album",
+      "title":       "First Test Album",
+      "description": "A stub album to verify the album detail rendering — cover, tracklist with players, comments hook. Modeled on the TSLOAI template.",
+      "cover":       "images/covers/first-test-album.jpg",
+      "tracks": [
+        { "num": 1, "title": "Opening",   "mp3": "dist/01-opening.mp3"   },
+        { "num": 2, "title": "Interlude", "mp3": "dist/02-interlude.mp3" },
+        { "num": 3, "title": "Closing",   "mp3": "dist/03-closing.mp3"   }
+      ]
+    },
+    {
+      "type":        "video",
+      "slug":        "first-test-video",
+      "title":       "First Test Video",
+      "description": "A stub video to verify the video detail rendering — player, poster, description, comments hook. The source URL points at a placeholder Release asset.",
+      "url":         "https://github.com/Binary-Blender/aa-test-creator/releases/download/v1/first-test-video.mp4",
+      "poster":      "images/posters/first-test-video.jpg",
+      "duration":    "3:14"
+    },
+    {
+      "type":        "gallery",
+      "slug":        "first-test-gallery",
+      "title":       "First Test Gallery",
+      "description": "A stub gallery to verify the gallery detail rendering — cover, image grid, comments hook.",
+      "cover":       "images/covers/first-test-gallery.jpg",
+      "images": [
+        { "src": "images/gallery/01.jpg", "title": "Image 01" },
+        { "src": "images/gallery/02.jpg", "title": "Image 02" },
+        { "src": "images/gallery/03.jpg", "title": "Image 03" }
+      ]
+    }
+  ]
 }
