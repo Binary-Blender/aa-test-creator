@@ -1,0 +1,10 @@
+{
+  "creator": {
+    "name":     "Wren",
+    "slug":     "wren",
+    "types":    ["author", "musician"],
+    "bio":      "A test identity used to validate the Net registration loop end-to-end. Two declared types so both /roster filters have something to show; no portrait field so the initial-letter avatar fallback gets exercised too.",
+    "register": "Test · Author + Musician",
+    "epigraph": "Everything is a test until it's a launch."
+  }
+}
