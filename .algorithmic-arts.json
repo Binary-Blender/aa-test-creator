@@ -83,6 +83,18 @@
     {
       "type": "rss",
       "url": "https://craigmod.com/index.xml"
+    },
+    {
+      "type": "bluesky",
+      "handle": "pfrazee.com"
+    },
+    {
+      "type": "youtube-channel",
+      "id": "UCX6b17PVsYBQ0ip5gyeme-Q"
+    },
+    {
+      "type": "spotify-artist",
+      "id": "4Z8W4fKeB5YxbusRsdQVPb"
     }
   ]
 }
