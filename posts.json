@@ -1,0 +1,11 @@
+[
+  {
+    "id": "wren-hello-1",
+    "text": "First post from a roster creator's own Desk — committed to my own repo, ready to broadcast out.",
+    "title": "Hello from wren",
+    "author": { "name": "Wren", "email": "wren@example.com", "sub": "seedwren" },
+    "createdAt": "2026-07-11T23:42:31Z",
+    "canonicalUrl": "https://algorithmic-arts.binary-blender.com/wren/posts/wren-hello-1",
+    "syndications": []
+  }
+]
